@@ -91,7 +91,7 @@ const experincesData = [
   },
   {
     icon: "/companies/micon.png",
-    logo: "/companies/minLogo.png",
+    logo: "/companies/minlogo.png",
     name: "Minority programmers association",
     title: "Full Stack Developer Intern",
     date: "Jul 2021 - Oct 2021",
