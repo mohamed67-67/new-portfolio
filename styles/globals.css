@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Spartan", sans-serif !important;
+  background-color: #d6d4d5;
+}
+
+.SideNav::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+.SideNav::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.SideNav::-webkit-scrollbar-thumb {
+  background: #c1972c;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: "transparent 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+.Toastify__toast-icon {
+  width: 50px !important;
+}
