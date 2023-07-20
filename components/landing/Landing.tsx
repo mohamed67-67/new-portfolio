@@ -60,6 +60,7 @@ const Landing = () => {
           <a className="text-accent font-semibold" href="/resume.pdf" download>
             Resume
           </a>
+          .
         </p>
         <div className="flex w-full flex-col gap-3">
           {list?.map((element: any, key: number) => (

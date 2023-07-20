@@ -25,13 +25,20 @@ const Projects = () => {
       }}
       className="bg-[#1b1919]  min-h-screen p-5 flex flex-col">
       <Link className="w-fit" href="/" passHref>
-        <p
+        <div
           style={{ textShadow: "2px 5px 5px #b38736" }}
-          className="text-3xl fixed top-5 cursor-pointer animate-ping animate-pulse text-white">
-          &#x1F844;
-        </p>
+          className="w-10 fixed top-5 cursor-pointer z-[200] grayscale animate-pulse">
+          <Image
+            alt="back"
+            src="/back.png"
+            width={50}
+            height={50}
+            quality={100}
+            className="object-contain"
+          />
+        </div>
       </Link>
-      <h1 className="text-2xl sm:text-4xl font-semibold tracking-[7px] uppercase text-white text-center py-10 sm:py-20">
+      <h1 className="text-2xl sm:text-4xl font-semibold tracking-[7px] uppercase text-white text-center py-14 sm:py-20">
         Latest Projects
       </h1>
       <div className="flex flex-col gap-10">
