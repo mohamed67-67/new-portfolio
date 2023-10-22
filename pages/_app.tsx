@@ -4,7 +4,9 @@ import type { AppProps } from "next/app";
 import { useMemo } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+// import { Bitter } from "next/font/google";
 
+// const bitter = Bitter({ subsets: ["vietnamese"] });
 export default function App({ Component, pageProps }: AppProps) {
   const Icon = useMemo(() => {
     return (
@@ -24,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <div className="max-w-[1750px] mx-auto ">
+    <div className={`max-w-[1750px] mx-auto `}>
       <Component {...pageProps} />
       <ToastContainer theme="dark" icon={Icon} />
     </div>

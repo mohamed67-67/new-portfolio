@@ -75,7 +75,7 @@ const socials = [
   {
     name: "linkedin",
     image: "/socials/linkedin.png",
-    link: "https://www.linkedin.com/in/mohamed-sharkawey-01a92712a/",
+    link: "https://www.linkedin.com/in/mohamed-sharkawey-%F0%9F%87%AA%F0%9F%87%AC%F0%9F%87%B5%F0%9F%87%B8-01a92712a/",
   },
   {
     name: "instagram",
